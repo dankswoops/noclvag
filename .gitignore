@@ -1,0 +1,10 @@
+*.oclbin
+*.o
+*~
+.#*
+noclvag-tool
+noclvag-search
+noclvag-secrets.txt
+noclvag-request.txt
+noclvag-response.txt
+noclvag-results.txt
