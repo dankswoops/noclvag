@@ -10,7 +10,9 @@ Use this software at your own risk, it was already `as is` software before I pla
 
 After upgrading my GPU and 2.5 hours of agentic cooking, I went from <i><small>186m</small></i> key/s to almost <i><strong>900m</strong></i> keys/s.
 
-
+<p align="center">
+  <img alt="Views" src="https://komarev.com/ghpvc/?username=dankswoops-noclvag&style=flat&color=97CA00&label=Views"/>
+</p>
 
 ## Setup
 
