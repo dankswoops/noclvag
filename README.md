@@ -17,27 +17,33 @@ After upgrading my GPU and 2.5 hours of agentic cooking, I went from <i><small>1
 ## Setup
 
 ```
+# Choose your name
+023456789acdefghjklmnpqrstuvwxyz
+
+# Not availble 
+1,b,i,o,
+
 # Open a terminal in the root of the project
 cd ~/Documents/Code/noclvag
+
+# Compile if you haven't
+make
 
 # Verify both platforms show up
 ./noclvag-search -l
 
-# Clear the last run
+# Clear the last run if you already ran
 rm -f noclvag-secrets.txt noclvag-request.txt noclvag-response.txt
 
 # Generate the search request
-./noclvag-tool --step1 ???
+./noclvag-tool --step1 npub1danksw00ps
+# required "npub1" afterwards is your vanity name.
 
 # Run the search on ROCm at ~898 Mkey/s
 ./noclvag-search -p 1 -d 0 -w 1024 -2
 
 # Finalize the key once a match is found
 ./noclvag-tool --step3
-
-# Possible letters
-023456789acdefghjklmnpqrstuvwxyz
-no 1,b,i,o,
 ```
 
 ## Personal conclusion on npub char number
@@ -65,7 +71,6 @@ As you can see below, it is a privlage to have a 10 char name. Given moores law,
 | 13 | ~30 Tkey/s | ~33,000 GPUs | Not feasible |
 | 14 | ~947 Tkey/s | ~1,000,000 GPUs | Not feasible |
 
-
 #### Time required for the user to hit around 1 year.
 
 | Chars | key/s needed | Spec range | Price range |
@@ -84,8 +89,6 @@ As you can see below, it is a privlage to have a 10 char name. Given moores law,
 | 12 | ~25 Gkey/s | ~28 high-end GPUs | $22K-42K |
 | 13 | ~811 Gkey/s | ~900 GPUs | Not feasible |
 | 14 | ~26 Tkey/s | ~29,000 GPUs | Not feasible |
-
-
 
 ## noclvag Optimization Notes
 
